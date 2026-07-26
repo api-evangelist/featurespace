@@ -1,8 +1,24 @@
 aid: featurespace
 name: Featurespace
-description: Featurespace is a company surfaced as a portfolio company of insight-partners and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Featurespace is an enterprise financial-crime prevention company founded in 2008 out of the
+  University of Cambridge and acquired by Visa (announced September 2024). Its flagship ARIC Risk Hub
+  applies Adaptive Behavioral Analytics and Automated Deep Behavioral Networks to risk-score events in
+  real time, detecting payment fraud, scams, and money laundering while reducing false positives for
+  banks, payment processors, merchant acquirers, insurers, and gaming operators. The platform processes
+  100bn+ events per year across 180+ countries. Featurespace does not publish a public, unauthenticated
+  developer API; its ARIC documentation portal and mobile SDKs are gated behind customer access.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/featurespace.png
 url: https://raw.githubusercontent.com/api-evangelist/featurespace/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,8 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
+- Fraud Prevention
+- Fraud Detection
+- Financial Crime
+- Anti-Money Laundering
+- Behavioral Analytics
+- Risk Scoring
+- Machine Learning
+- Payments
 - Company
 apis: []
 maintainers:
@@ -22,5 +46,35 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/featurespace-domain-security.yml
+- type: LLMsTxt
+  url: llms/featurespace-llms.txt
 - type: Website
   url: https://www.featurespace.com/
+- type: DeveloperPortal
+  url: https://docs.featurespace.com/
+- type: Documentation
+  url: https://docs.featurespace.com/
+- type: ProductPage
+  name: ARIC Risk Hub
+  url: https://www.featurespace.com/aric-risk-hub
+- type: KnowledgeHub
+  url: https://www.featurespace.com/knowledge-hub
+- type: Blog
+  url: https://www.featurespace.com/newsroom
+- type: SignUp
+  url: https://business.featurespace.com/request-a-demo
+- type: PrivacyPolicy
+  url: https://www.featurespace.com/privacy-policy
+- type: Careers
+  url: https://www.featurespace.com/careers
+- type: GitHubOrganization
+  url: https://github.com/Featurespace
+- type: LinkedIn
+  url: https://www.linkedin.com/company/featurespace
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
