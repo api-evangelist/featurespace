@@ -7,6 +7,17 @@ description: Featurespace is an enterprise financial-crime prevention company fo
   banks, payment processors, merchant acquirers, insurers, and gaming operators. The platform processes
   100bn+ events per year across 180+ countries. Featurespace does not publish a public, unauthenticated
   developer API; its ARIC documentation portal and mobile SDKs are gated behind customer access.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
