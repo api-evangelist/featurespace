@@ -42,12 +42,11 @@ created: '2026-07-17'
 modified: '2026-07-19'
 tags:
 - Fraud Prevention
-- Fraud Detection
 - Financial Crime
-- Anti-Money Laundering
+- AML
 - Behavioral Analytics
 - Risk Scoring
-- Machine-Learning
+- Machine Learning
 - Payments
 - Company
 tags_raw:
@@ -60,6 +59,7 @@ tags_raw:
 - Machine Learning
 - Payments
 - Company
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
